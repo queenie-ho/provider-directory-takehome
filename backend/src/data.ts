@@ -11,7 +11,7 @@ export interface Provider {
   bio: string;
 }
 
-// Mock provider data (converted from your api.js)
+// Mock provider data (converted from api.js)
 export const providers: Provider[] = [
   {
     id: "1",

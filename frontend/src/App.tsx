@@ -1,3 +1,4 @@
+//App.tsx
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import ProviderListPage from './pages/ProviderListPage';
 import ProviderDetailPage from './pages/ProviderDetailPage';
@@ -14,3 +15,10 @@ function App() {
 }
 
 export default App;
+// import Test from './Test';
+
+// function App() {
+//   return <Test />;
+// }
+
+// export default App;
