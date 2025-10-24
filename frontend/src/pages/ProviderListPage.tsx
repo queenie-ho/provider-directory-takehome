@@ -70,7 +70,7 @@ export default function ProviderListPage() {
       {/* Provider List */}
       <div className="w-full max-w-3xl px-6 sm:px-8 py-10">
         {/* aligned with card left edge */}
-        <p className="text-sm text-gray-500 font-medium mb-8 text-left">
+        <p className="text-sm text-gray-600 font-medium mb-8 text-left">
           {providers.length} {providers.length === 1 ? 'provider' : 'providers'} in Ontario
         </p>
 
