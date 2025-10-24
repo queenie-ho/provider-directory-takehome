@@ -8,7 +8,7 @@ const app = express();
 type Request = express.Request;
 type Response = express.Response;
 const PORT = 3002;
-
+  
 // Middleware
 app.use(cors());
 app.use(express.json());
