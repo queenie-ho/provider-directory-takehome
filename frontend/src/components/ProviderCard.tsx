@@ -49,7 +49,7 @@ function ProviderCard({ provider }: ProviderCardProps) {
   <div className="flex items-start gap-5 mb-4">
     <Avatar name={provider.name} size="md" imageUrl={provider.avatarUrl} />
     <div className="flex-1 min-w-0">
-      <h3 className="text-xl font-bold text-gray-500 leading-tight group-hover:text-purple-700 transition-colors">
+      <h3 className="text-xl font-bold text-gray-900 leading-tight group-hover:text-purple-700 transition-colors">
   {provider.name}
 </h3>
 <p className="text-base text-gray-500 leading-snug mt-1">
