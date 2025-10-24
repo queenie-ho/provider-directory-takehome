@@ -61,8 +61,8 @@ app.get('/health', (req: Request, res: Response) => {
 
 // Start server
 app.listen(PORT, () => {
-  console.log(`🚀 Backend server running on http://localhost:${PORT}`);
-  console.log(`📍 API endpoints:`);
+  console.log(` Backend server running on http://localhost:${PORT}`);
+  console.log(` API endpoints:`);
   console.log(`   GET http://localhost:${PORT}/api/providers`);
   console.log(`   GET http://localhost:${PORT}/api/providers/:id`);
 });
